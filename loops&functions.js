@@ -12,7 +12,7 @@
 /*2. && stops when it finds a falsy value, while || stops when it finds a truthy value.*/
 
 /*
-3. === checks both value and type, while == allows type coercion, meaning JavaScript 
+3. === checks both value and type, while == JavaScript 
  automatically converts types before comparing them.
  === is recommended because it avoids unexpected comparisons caused 
 by automatic type conversion.
