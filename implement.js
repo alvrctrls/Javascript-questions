@@ -16,8 +16,8 @@ console.log(enrolled, typeof enrolled);
 let x = "5";
 let y = 10;
 
-console.log(x + y); //gives 510
-console.log(x * y); // gives 50
+console.log(x + y); // would give 510
+console.log(x * y); // would give 50
 
 //4.
 let ticketAge = 20;
