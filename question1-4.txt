@@ -1,0 +1,42 @@
+1. Explain the differences between var, let, and const in JavaScript 
+regarding variable scope, hoisting, and reassignment.
+
+var: Function-scoped, hoisted and initialized as `undefined`, and can be reassigned.
+let: Block-scoped, hoisted but not initialized until its declaration, and can be reassigned.
+const: Block-scoped, hoisted but not initialized until its declaration, and **cannot be reassigned**.
+
+
+2. What are the primitive data types available in JavaScript, and how do they 
+fundamentally differ from reference types like arrays and objects?
+
+
+    Primitives store their actual value, while arrays and objects are reference types, meaning
+     variables hold a reference to the data rather than the data itself.
+
+
+3. Discuss the difference between loose equality (==) and strict equality (===). 
+    Why is strict equality generally considered a best practice?
+
+    == compares values after type conversion, while === compares both 
+    value and type without conversion.
+
+   === is generally preferred because it avoids unexpected results 
+    caused by automatic type conversion
+
+
+3.How do logical operators (&&, ||, ---) evaluate expressions, 
+    and what is meant by "short-circuit evaluation"?
+
+[
+ `&&` returns the first falsy value, `||` returns the first truthy value, and `!` reverses a boolean value; 
+  short-circuit evaluation-means JavaScript stops evaluating once the result is already determined.
+
+]
+
+4. Describe how a conditional switch statement can be used as an alternative to a long chain of if...else if statements
+    , and explain the role of the default keyword.
+    
+        A switch statement checks one value against multiple possible cases, making it cleaner than a long if...else if chain.
+
+default runs when none of the case values match, similar to the final else
+    
